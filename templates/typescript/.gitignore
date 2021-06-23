@@ -1,0 +1,11 @@
+# Ignore node_modules
+node_modules
+
+# Ignore Generated Database File (If using quick.db)
+json.sqlite
+*.sqlite
+
+# Ignore Generated Lockfile
+package-lock.json
+yarn.lock
+*.lock
