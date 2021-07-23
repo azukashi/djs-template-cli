@@ -1,7 +1,7 @@
 {
-  "name": "@gifaldyazkaa/gifaldyazka",
-  "version": "1.0.2",
-  "description": "A CLI to Bootstrap Discord JS Project with Command Handler",
+  "name": "gifaldyazka",
+  "version": "1.0.0s",
+  "description": "A CLI to Bootstrap Discord.js Project with Command Handler",
   "main": "src/index.js",
   "bin": {
     "@gifaldyazkaa/gifaldyazka": "bin/create-project",
@@ -15,7 +15,10 @@
   },
   "keywords": [
     "cli",
-    "create-project"
+    "create-project",
+    "discord.js",
+    "discord.js-cli",
+    "djs-v12"
   ],
   "author": "Gifaldy Azka",
   "license": "MIT",

@@ -8,7 +8,8 @@
   },
   "keywords": [
     "discord.js",
-    "commandhandler"
+    "commandhandler",
+    "djs-handler"
   ],
   "author": "Gifaldy Azka",
   "license": "MIT",

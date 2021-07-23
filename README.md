@@ -1,41 +1,102 @@
-<h1 align="center">@gifaldyazkaa/gifaldyazka</h1>
+<h1 align="center">gifaldyazka</h1>
 
-`@gifaldyazkaa/gifaldyazka` Is A CLI to Bootstrap Discord JS Project with a Command Handler Included!
+`gifaldyazka` Is A CLI to Bootstrap Discord.js Project with a Command Handler!
 
-## Setup
+# Setup
 
-- First, Install this Module as Globally.
+## Install this module globally
+
+Install this Module Globally with npm to your Local Machine.
+
+```bash
+> npm install -g gifaldyazka
+```
+
+> Note : You may need to add `sudo` if needed.
+
+## Make a New Empty Directory.
+
+Open your Terminal, and Make sure your terminal is located to the new empty directory.
+
+## Run `gifaldyazka`
+
+Run `gifaldyazka` at your Terminal. It should ask you for prefered languages you want.
+
+- Examples :
 
   ```bash
-  > npm install -g @gifaldyazkaa/gifaldyazka
+  > gifaldyazka
   ```
 
-  - Note : May you need to add `sudo` to run this command if needed.
+> Available options : `Javascript`, `Typescript`
 
-- Make a Directory by `mkdir folder-name`. Example `your-project`.
-- Move Current Directory to `your-project` Folder by `cd your-project`
-- Run `gifaldyazka` in your Command Line. It should ask you what language you want.
-- Select a Language, and Select an Options to Initialize Git.
-- Wait until it done.
-- You already set! Now you can starting to editing some file inside your project.
+## Wait the Process until Done.
 
-## Parameters
+Wait the Process until Done. While done, It'll says `DONE! Project Ready.`
 
-- **`javascript` || `typescript`** : Parameter to set languages
-- **`--git`** : Parameter to Initialize Git
-- **`--install`** : Parameter to Install Required Dependecies
+Now, you're ready to go!
 
-## Parameters Example
+# Parameters
 
-- So, If you want to Make a JS Project, Initialized to Git, and Auto-install, Just use
-  ```bash
-  > gifaldyazkaa javascript --git --install
-  ```
-- If you want to Make a TS Project, Initialize to Git, but not use Auto-install, Just use
-  ```bash
-  > gifaldyazka typescript --git
-  ```
+## **`javascript` || `typescript`**
 
-## Authors
+Parameter to set prefered language.
+
+Usage :
+
+```bash
+> gifaldyazka javascript
+```
+
+## **`--git`**
+
+Parameter to Initialize Git to your project.
+
+Usage :
+
+```bash
+> gifaldyazka javascript --git
+```
+
+## **`--install`**
+
+Parameter to Install All Required Dependecies at `package.json`
+
+Usage :
+
+```bash
+> gifaldyazka javascript --install
+```
+
+## **`--yes`**
+
+Parameter to Pass All Prompt Question.
+
+Usage :
+
+```bash
+> gifaldyazka --yes
+```
+
+# Additional Information
+
+## Available Language
+
+- `JavaScript`
+- `TypeScript`
+
+## Available Parameters
+
+- `--git`
+- `--install`
+- `--yes`
+
+## Discord.js Version
+
+- `v12.5.3` (Stable)
+
+  > This will generate a Discord Bot Project with Discord.js at v12.5.3
+
+# Authors
 
 - [Gifaldy Azka](https://github.com/gifaldyazkaa)
