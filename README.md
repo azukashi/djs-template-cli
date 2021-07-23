@@ -1,6 +1,16 @@
-<h1 align="center">gifaldyazka</h1>
+<div align="center">
+<h1 >gifaldyazka</h1>
 
-`gifaldyazka` Is A CLI to Bootstrap Discord.js Project with a Command Handler!
+<p><code>gifaldyazka</code> Is A CLI to Bootstrap Discord.js Project with a Command Handler!</p>
+
+<p>
+  <a href="https://npmjs.com/package/gifaldyazka"><img src="https://img.shields.io/npm/v/gifaldyazka?maxAge=3600" alt="NPM version" /></a>
+  <a href="https://npmjs.com/package/gifaldyazka"><img src="https://img.shields.io/npm/dt/gifaldyazka?maxAge=3600" alt="NPM downloads" /></a>
+</p>
+<p>
+  <a href="https://www.npmjs.com/package/gifaldyazka"><img src="https://nodei.co/npm/gifaldyazka.png?downloads=true&stars=true" alt="NPM Banner"></a>
+</p>
+</div>
 
 # Setup
 

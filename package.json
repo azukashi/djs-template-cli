@@ -1,10 +1,9 @@
 {
   "name": "gifaldyazka",
-  "version": "1.0.0s",
+  "version": "1.0.1",
   "description": "A CLI to Bootstrap Discord.js Project with Command Handler",
   "main": "src/index.js",
   "bin": {
-    "@gifaldyazkaa/gifaldyazka": "bin/create-project",
     "gifaldyazka": "bin/create-project"
   },
   "publishConfig": {
@@ -31,5 +30,14 @@
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
     "pkg-install": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gifaldyazkaa/gifaldyazka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gifaldyazkaa/gifaldyazka/issues"
+  },
+  "homepage": "https://github.com/gifaldyazkaa/gifaldyazka#readme"
 }
