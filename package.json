@@ -1,7 +1,7 @@
 {
   "name": "gifaldyazka",
-  "version": "1.0.1",
-  "description": "A CLI to Bootstrap Discord.js Project with Command Handler",
+  "version": "1.0.2",
+  "description": "Command-line Interface to Bootstrap Discord.js Project with a Command Handlers.",
   "main": "src/index.js",
   "bin": {
     "gifaldyazka": "bin/create-project"
