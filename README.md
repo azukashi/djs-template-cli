@@ -1,12 +1,12 @@
 <div align="center">
 
-# discord.js-cli
+# discord-js-cli
 
-`discord.js-cli` is a Command-line Interface to Bootstrap Discord.js project with command handler.
+`discord-js-cli` is a Command-line Interface to Bootstrap Discord.js project with command handler.
 
-[![NPM version](https://img.shields.io/npm/v/discord.js-cli?maxAge=3600)](https://npmjs.com/package/discord.js-cli) [![NPM downloads](https://img.shields.io/npm/dt/discord.js-cli?maxAge=3600)](https://npmjs.com/package/gifaldyazka)
+[![NPM version](https://img.shields.io/npm/v/discord.js-cli?maxAge=3600)](https://npmjs.com/package/discord.js-cli) [![NPM downloads](https://img.shields.io/npm/dt/discord-js-cli?maxAge=3600)](https://npmjs.com/package/gifaldyazka)
 
-[![NPM banner](https://nodei.co/npm/discord.js-cli.png?downloads=true&stars=true)](https://npmjs.com/package/discord.js-cli)
+[![NPM banner](https://nodei.co/npm/discord.js-cli.png?downloads=true&stars=true)](https://npmjs.com/package/discord-js-cli)
 
 </div>
 
