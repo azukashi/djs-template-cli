@@ -1,12 +1,12 @@
 <div align="center">
 
-# discord-js-cli
+# djs-template-cli
 
-`discord-js-cli` is a Command-line Interface to Bootstrap Discord.js project with command handler.
+`djs-template-cli` is a Command-line Interface to Bootstrap Discord.js project with command handler.
 
-[![NPM version](https://img.shields.io/npm/v/discord.js-cli?maxAge=3600)](https://npmjs.com/package/discord.js-cli) [![NPM downloads](https://img.shields.io/npm/dt/discord-js-cli?maxAge=3600)](https://npmjs.com/package/gifaldyazka)
+[![NPM version](https://img.shields.io/npm/v/djs-template-cli?maxAge=3600)](https://npmjs.com/package/discord.js-cli) [![NPM downloads](https://img.shields.io/npm/dt/djs-template-cli?maxAge=3600)](https://npmjs.com/package/gifaldyazka)
 
-[![NPM banner](https://nodei.co/npm/discord-js-cli.png?downloads=true&stars=true)](https://npmjs.com/package/discord-js-cli)
+[![NPM banner](https://nodei.co/npm/djs-template-cli.png?downloads=true&stars=true)](https://npmjs.com/package/discord-js-cli)
 
 </div>
 
@@ -18,9 +18,9 @@ Install this module globally with npm.
 
 ```bash
 # Using npm
-$ [sudo] npm install -g discord.js-cli
+$ [sudo] npm install -g djs-template-cli
 # Using yarn
-$ [sudo] yarn global add discord.js-cli
+$ [sudo] yarn global add djs-template-cli
 ```
 
 ### Run `djs-cli`
