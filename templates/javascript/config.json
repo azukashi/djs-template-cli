@@ -1,5 +1,5 @@
 {
   "token": "your bot's token",
-  "prefix": "your bot's prefix",
-  "author": "your discord account id"
+  "prefix": "!",
+  "mongooseConnectionString": "your mongodb connection string"
 }

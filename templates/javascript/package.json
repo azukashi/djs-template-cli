@@ -1,21 +1,17 @@
 {
-  "name": "javascript-discordjs-template",
+  "name": "discord.js-template-js",
   "version": "1.0.0",
-  "description": "JavaScript Template to Make Easily Code a Discord Bot with Discord.js",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "discord.js",
-    "commandhandler",
-    "djs-handler"
-  ],
-  "author": "Gifaldy Azka",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "esm": "^3.2.25",
-    "ascii-table": "0.0.9",
-    "discord.js": "^12.2.0"
+    "discord.js": "^13.3.0",
+    "glob": "^7.1.7",
+    "mongoose": "^6.0.2"
   }
 }

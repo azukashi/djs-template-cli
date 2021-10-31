@@ -1,23 +1,26 @@
 {
-  "name": "gifaldyazka",
-  "version": "1.0.2",
-  "description": "Command-line Interface to Bootstrap Discord.js Project with a Command Handlers.",
+  "name": "discord.js-cli",
+  "version": "1.0.0",
+  "description": "Command-line Interface to bootstrap discord.js project with a command handler.",
   "main": "src/index.js",
   "bin": {
-    "gifaldyazka": "bin/create-project"
+    "djs-cli": "bin/create-project",
+    "discord.js-cli": "bin/create-project"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "check-format": "prettier -c ."
   },
   "keywords": [
     "cli",
     "create-project",
     "discord.js",
     "discord.js-cli",
-    "djs-v12"
+    "djs-v13"
   ],
   "author": "Gifaldy Azka",
   "license": "MIT",
@@ -31,13 +34,16 @@
     "ncp": "^2.0.0",
     "pkg-install": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "prettier": "^2.4.1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gifaldyazkaa/gifaldyazka.git"
+    "url": "git+https://github.com/gifaldyazkaa/discord.js-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/gifaldyazkaa/gifaldyazka/issues"
+    "url": "https://github.com/gifaldyazkaa/discord.js-cli/issues"
   },
-  "homepage": "https://github.com/gifaldyazkaa/gifaldyazka#readme"
+  "homepage": "https://github.com/gifaldyazkaa/discord.js-cli#readme"
 }

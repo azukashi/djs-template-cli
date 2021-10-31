@@ -1,16 +1,16 @@
-const { Collection, Client, Discord } = require("discord.js");
-const fs = require("fs");
-const client = new Client({
-  disableEveryone: true,
-});
-const config = require("./config.json");
-const token = config.token;
-client.commands = new Collection();
-client.aliases = new Collection();
-client.categories = fs.readdirSync("./commands/");
-module.exports = client;
-["command"].forEach((handler) => {
-  require(`./handlers/${handler}`)(client);
-});
+const { Client, Collection } = require('discord.js');
 
-client.login(token);
+const client = new Client({
+  intents: 32767,
+});
+module.exports = client;
+
+// Global Variables
+client.commands = new Collection();
+client.slashCommands = new Collection();
+client.config = require('./config.json');
+
+// Initialize the project
+require('./handler')(client);
+
+client.login(client.config.token);

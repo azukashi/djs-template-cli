@@ -1,112 +1,60 @@
 <div align="center">
-<h1 >gifaldyazka</h1>
 
-<p><code>gifaldyazka</code> is a Command-line Interface to Bootstrap Discord.js Project with a Command Handlers.</p>
+# discord.js-cli
 
-<p>
-  <a href="https://npmjs.com/package/gifaldyazka"><img src="https://img.shields.io/npm/v/gifaldyazka?maxAge=3600" alt="NPM version" /></a>
-  <a href="https://npmjs.com/package/gifaldyazka"><img src="https://img.shields.io/npm/dt/gifaldyazka?maxAge=3600" alt="NPM downloads" /></a>
-</p>
-<p>
-  <a href="https://www.npmjs.com/package/gifaldyazka"><img src="https://nodei.co/npm/gifaldyazka.png?downloads=true&stars=true" alt="NPM Banner"></a>
-</p>
+`discord.js-cli` is a Command-line Interface to Bootstrap Discord.js project with command handler.
+
+[![NPM version](https://img.shields.io/npm/v/discord.js-cli?maxAge=3600)](https://npmjs.com/package/discord.js-cli) [![NPM downloads](https://img.shields.io/npm/dt/discord.js-cli?maxAge=3600)](https://npmjs.com/package/gifaldyazka)
+
+[![NPM banner](https://nodei.co/npm/discord.js-cli.png?downloads=true&stars=true)](https://npmjs.com/package/discord.js-cli)
+
 </div>
 
-# Setup
+## Installation
 
-## Install this module globally
+### Install the package
 
-Install this Module Globally with npm to your Local Machine.
-
-```bash
-> npm install -g gifaldyazka
-```
-
-> Note : You may need to add `sudo` if needed.
-
-## Make a New Empty Directory.
-
-Open your Terminal, and Make sure your terminal is located to the new empty directory.
-
-## Run `gifaldyazka`
-
-Run `gifaldyazka` at your Terminal. It should ask you for prefered languages you want.
-
-- Examples :
-
-  ```bash
-  > gifaldyazka
-  ```
-
-> Available options : `Javascript`, `Typescript`
-
-## Wait the Process until Done.
-
-Wait the Process until Done. While done, It'll says `DONE! Project Ready.`
-
-Now, you're ready to go!
-
-# Parameters
-
-## **`javascript` || `typescript`**
-
-Parameter to set prefered language.
-
-Usage :
+Install this module globally with npm.
 
 ```bash
-> gifaldyazka javascript
+# Using npm
+$ [sudo] npm install -g discord.js-cli
+# Using yarn
+$ [sudo] yarn global add discord.js-cli
 ```
 
-## **`--git`**
+### Run `djs-cli`
 
-Parameter to Initialize Git to your project.
+Run `djs-cli` at your Terminal. It should ask you for prefered languages you want.
 
-Usage :
-
-```bash
-> gifaldyazka javascript --git
+```sh
+$ djs-cli
+# or
+$ discord.js-cli
 ```
 
-## **`--install`**
+## Parameters
 
-Parameter to Install All Required Dependecies at `package.json`
+Available parameters for this
 
-Usage :
-
-```bash
-> gifaldyazka javascript --install
-```
-
-## **`--yes`**
-
-Parameter to Pass All Prompt Question.
-
-Usage :
-
-```bash
-> gifaldyazka --yes
-```
-
-# Additional Information
-
-## Available Language
-
-- `JavaScript`
-- `TypeScript`
-
-## Available Parameters
-
-- `--git`
-- `--install`
-- `--yes`
+| Name       | Usage                | Description                                              |
+| ---------- | -------------------- | -------------------------------------------------------- |
+| JavaScript | `djs-cli javascript` | Create a JavaScript-based discord.js project             |
+| TypeScript | `djs-cli typescript` | Create a TypeScript-based discord.js project             |
+| Git        | `djs-cli --git`      | Initialize the Project with Git                          |
+| Install    | `djs-cli --install`  | Install all required dependecies when creating a project |
+| Bypass     | `djs-cli --yes`      | Skip and Bypass all options                              |
 
 ## Discord.js Version
 
-- `v12.5.3` (Stable)
+`v13.3.3` (Stable)
 
-  > This will generate a Discord Bot Project with Discord.js at v12.5.3
+> This will generate a Discord Bot Project with Discord.js at v13.3.0
 
-# Authors
+## Contributing
 
-- [Gifaldy Azka](https://github.com/gifaldyazkaa)
+Any contribution is open and welcomed! Feel free to submit a Pull Request if you want!
+
+## License
+
+This project is Under [MIT License](LICENSE).

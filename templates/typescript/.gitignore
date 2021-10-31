@@ -1,11 +1,10 @@
-# Ignore node_modules
+dist
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
 node_modules
-
-# Ignore Generated Database File (If using quick.db)
-json.sqlite
-*.sqlite
-
-# Ignore Generated Lockfile
-package-lock.json
-yarn.lock
-*.lock
+config.json
+.env
