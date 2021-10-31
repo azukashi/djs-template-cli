@@ -1,5 +1,5 @@
 {
-  "name": "discord-js-cli",
+  "name": "djs-template-cli",
   "version": "1.0.0",
   "description": "Command-line Interface to bootstrap discord.js project with a command handler.",
   "main": "src/index.js",
