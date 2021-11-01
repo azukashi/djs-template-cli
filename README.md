@@ -35,7 +35,7 @@ $ discord.js-cli
 
 ## Parameters
 
-Available parameters for this
+Available parameters for this package
 
 | Name       | Usage                | Description                                              |
 | ---------- | -------------------- | -------------------------------------------------------- |
