@@ -27,6 +27,7 @@
   "dependencies": {
     "arg": "^5.0.0",
     "chalk": "^4.1.1",
+    "djs-template-cli": "^1.1.0",
     "esm": "^3.2.25",
     "execa": "^5.1.1",
     "inquirer": "^8.1.1",

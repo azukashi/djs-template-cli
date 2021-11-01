@@ -336,6 +336,20 @@ defaults@^1.0.3:
   dependencies:
     clone "^1.0.2"
 
+djs-template-cli@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/djs-template-cli/-/djs-template-cli-1.1.0.tgz#e464049ad295e003cb22bee9362469a7f6b4956f"
+  integrity sha512-Rl/pxnJlY6/IUrXhehPxjBEDGwYcnI7sbW9dYkTAhZpoPOqoncPe/0eQk4tAqNBhaRiDj8qHDGe0vf9QBsvU1A==
+  dependencies:
+    arg "^5.0.0"
+    chalk "^4.1.1"
+    esm "^3.2.25"
+    execa "^5.1.1"
+    inquirer "^8.1.1"
+    listr "^0.14.3"
+    ncp "^2.0.0"
+    pkg-install "^1.0.0"
+
 doctrine@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
