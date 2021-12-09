@@ -48,7 +48,7 @@ Available parameters for this package
 | Install    | `djs-cli --install`  | Install all required dependecies when creating a project |
 | Bypass     | `djs-cli --yes`      | Skip and Bypass all options                              |
 
-## 🏷️ Discord.js Version
+## 🏷️ Discord.js version
 
 - JavaScript Template uses Discord.js version : `^13.3.0`
 - TypeScript Template uses Discord.js version : `^13.1.0`
