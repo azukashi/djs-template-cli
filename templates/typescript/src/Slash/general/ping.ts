@@ -1,4 +1,4 @@
-import { Slash } from '../../interfaces';
+import { Slash } from '../../Interfaces';
 
 export const slash: Slash = {
 	name: 'ping',

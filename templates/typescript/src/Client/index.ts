@@ -2,7 +2,7 @@ import { Client, Collection } from 'discord.js';
 import dotenv from 'dotenv';
 dotenv.config();
 import path from 'path';
-import { Slash, Command, Event } from '../interfaces';
+import { Slash, Command, Event } from '../Interfaces';
 import mongoose from 'mongoose';
 import consola from 'consola';
 import chalk from 'chalk';
