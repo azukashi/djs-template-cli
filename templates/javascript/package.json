@@ -1,5 +1,5 @@
 {
-  "name": "discord.js-template-js",
+  "name": "djs-template-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^13.3.0",
     "glob": "^7.1.7",
-    "mongoose": "^6.0.2"
+    "mongoose": "^6.0.2",
+    "dotenv": "^10.0.0"
   }
 }

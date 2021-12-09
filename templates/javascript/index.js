@@ -1,14 +1,17 @@
-const { Client, Collection } = require('discord.js');
+const { Client, Collection, Intents } = require('discord.js');
 
 const client = new Client({
-  intents: 32767,
+  intents: [
+    Intents.FLAGS.GUILDS,
+    Intents.FLAGS.GUILD_MESSAGES,
+    Intents.FLAGS.GUILD_MEMBERS,
+  ],
 });
 module.exports = client;
 
 // Global Variables
 client.commands = new Collection();
 client.slashCommands = new Collection();
-client.config = require('./config.json');
 
 // Initialize the project
 require('./handler')(client);

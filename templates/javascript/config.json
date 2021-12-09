@@ -1,5 +1,0 @@
-{
-  "token": "your bot's token",
-  "prefix": "!",
-  "mongooseConnectionString": "your mongodb connection string"
-}

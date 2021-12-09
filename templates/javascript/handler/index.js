@@ -1,7 +1,9 @@
-const { glob } = require('glob');
-const { promisify } = require('util');
 const { Client } = require('discord.js');
+const { promisify } = require('util');
+const { glob } = require('glob');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 
 const globPromise = promisify(glob);
 
@@ -51,10 +53,10 @@ module.exports = async (client) => {
   });
 
   // mongoose
-  const { mongooseConnectionString } = require('../config.json');
+  const mongooseConnectionString = process.env.MONGOURI;
   if (!mongooseConnectionString) return;
 
   mongoose
     .connect(mongooseConnectionString)
-    .then(() => console.log('Connected to mongodb'));
+    .then(() => console.log('Connected to MongoDB!'));
 };
