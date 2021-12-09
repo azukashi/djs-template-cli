@@ -1,8 +1,8 @@
 <div align="center">
 
-# djs-template-cli
+# 🤖 djs-template-cli
 
-`djs-template-cli` is a Command-line Interface to Bootstrap Discord.js project with command handler.
+[djs-template-cli](https://npmjs.com/package/djs-template-cli) is a Command-line Interface to Bootstrap Discord.js project with command handler.
 
 [![NPM version](https://img.shields.io/npm/v/djs-template-cli?maxAge=3600)](https://npmjs.com/package/djs-template-cli) [![NPM downloads](https://img.shields.io/npm/dt/djs-template-cli?maxAge=3600)](https://npmjs.com/package/djs-template-cli)
 
@@ -10,30 +10,33 @@
 
 </div>
 
-## Installation
+## 📥 Installation
 
-### Install the package
+### 📦 Install this package
 
 Install this module globally with npm.
 
 ```bash
 # Using npm
 $ [sudo] npm install -g djs-template-cli
+
 # Using yarn
 $ [sudo] yarn global add djs-template-cli
 ```
 
-### Run `djs-cli`
+### 🏃 Run `djs-cli`
 
 Run `djs-cli` at your Terminal. It should ask you for prefered languages you want.
 
 ```sh
+# Main binaries
 $ djs-cli
+
 # or
 $ discord.js-cli
 ```
 
-## Parameters
+## 📚 Parameters
 
 Available parameters for this package
 
@@ -45,16 +48,15 @@ Available parameters for this package
 | Install    | `djs-cli --install`  | Install all required dependecies when creating a project |
 | Bypass     | `djs-cli --yes`      | Skip and Bypass all options                              |
 
-## Discord.js Version
+## 🏷️ Discord.js Version
 
-`v13.3.3` (Stable)
+- JavaScript Template uses Discord.js version : `^13.3.0`
+- TypeScript Template uses Discord.js version : `^13.1.0`
 
-> This will generate a Discord Bot Project with Discord.js at v13.3.0
+## 👨‍💻 Contributing
 
-## Contributing
+Contributions are welcome! Feel free to submit a Pull Request with improvements!
 
-Any contribution is open and welcomed! Feel free to submit a Pull Request if you want!
+## 🧾 License
 
-## License
-
-This project is Under [MIT License](LICENSE).
+[djs-template-cli](https://npmjs.com/package/djs-template-cli) is Licensed Under [Apache-2.0 License](./LICENSE).
