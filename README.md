@@ -59,4 +59,4 @@ Contributions are welcome! Feel free to submit a Pull Request with improvements!
 
 ## 🧾 License
 
-[djs-template-cli](https://npmjs.com/package/djs-template-cli) is Licensed Under [Apache-2.0 License](./LICENSE).
+[djs-template-cli](https://npmjs.com/package/djs-template-cli) is Licensed Under [Apache-2.0](./LICENSE) License.
