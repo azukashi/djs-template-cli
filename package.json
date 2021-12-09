@@ -1,6 +1,6 @@
 {
   "name": "djs-template-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Command-line Interface to bootstrap discord.js project with a command handler.",
   "main": "src/index.js",
   "bin": {
@@ -12,18 +12,9 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier --write .",
+    "format": "prettier -w .",
     "check-format": "prettier -c ."
   },
-  "keywords": [
-    "cli",
-    "create-project",
-    "discord.js",
-    "discord.js-cli",
-    "djs-v13"
-  ],
-  "author": "Gifaldy Azka",
-  "license": "MIT",
   "dependencies": {
     "arg": "^5.0.0",
     "chalk": "^4.1.1",
@@ -39,6 +30,17 @@
     "eslint": "^8.1.0",
     "prettier": "^2.4.1"
   },
+  "keywords": [
+    "cli",
+    "discord",
+    "bot",
+    "create-project",
+    "discord.js",
+    "discord.js-cli",
+    "djs-v13"
+  ],
+  "author": "Gifaldy Azka",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gifaldyazkaa/djs-template-cli.git"
