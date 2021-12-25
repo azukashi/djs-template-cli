@@ -50,8 +50,8 @@ Available parameters for this package
 
 ## 🏷️ Discord.js version
 
-- JavaScript Template uses Discord.js version : `^13.3.0`
-- TypeScript Template uses Discord.js version : `^13.1.0`
+- JavaScript Template uses Discord.js version : `^13.4.0`
+- TypeScript Template uses Discord.js version : `^13.4.0`
 
 ## 👨‍💻 Contributing
 
