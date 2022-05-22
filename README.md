@@ -14,7 +14,7 @@
 
 > `sudo` may required for UNIX-based system
 
-#### npm
+#### 📦 npm
 
 ```bash
 $ npm install -g djs-template-cli
@@ -23,7 +23,7 @@ $ npm install -g djs-template-cli
 # found 0 vulnerabilities
 ```
 
-#### Yarn
+#### 🐈 yarn
 
 ```bash
 $ yarn global add djs-template-cli
