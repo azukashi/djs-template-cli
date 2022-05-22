@@ -3,6 +3,7 @@
 # 🤖 djs-template-cli
 
 [![NPM banner](https://nodei.co/npm/djs-template-cli.png?downloads=true&stars=true)](https://npmjs.com/package/djs-template-cli)
+
 [![NPM version](https://img.shields.io/npm/v/djs-template-cli?maxAge=3600)](https://npmjs.com/package/djs-template-cli) [![NPM downloads](https://img.shields.io/npm/dt/djs-template-cli?maxAge=3600)](https://npmjs.com/package/djs-template-cli)
 
 </div>
