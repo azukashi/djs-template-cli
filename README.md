@@ -46,10 +46,10 @@ $ yarn global add djs-template-cli
 # Main binary
 $ djs-cli [OPTIONS...]
 # or
-$ discord.js-cli
+$ discord.js-cli [OPTIONS...]
 ```
 
-> Notice : _This package will create a project inside your current working directory (pwd). To avoid creating a project in wrong directory (ex: in your /home/user directory), create am empty directory, change dir to newly created directory, and run the main binary_
+> Notice : _This package will create a project inside your current working directory (pwd). To avoid creating a project in wrong directory (ex: in your /home/user directory), create an empty directory, change dir to newly created directory, and run the main binary_
 
 ## 📚 Options
 
