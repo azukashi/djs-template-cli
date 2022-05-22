@@ -1,6 +1,5 @@
-const client = require('../index');
-const dotenv = require('dotenv');
-dotenv.config();
+const client = require('../../index');
+require('dotenv').config();
 
 client.on('messageCreate', async (message) => {
   if (

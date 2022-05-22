@@ -1,4 +1,4 @@
-const client = require('../index');
+const client = require('../../index');
 
 client.on('interactionCreate', async (interaction) => {
   // Slash Command Handling
@@ -23,12 +23,5 @@ client.on('interactionCreate', async (interaction) => {
     );
 
     cmd.run(client, interaction, args);
-  }
-
-  // Context Menu Handling
-  if (interaction.isContextMenu()) {
-    await interaction.deferReply({ ephemeral: false });
-    const command = client.slashCommands.get(interaction.commandName);
-    if (command) command.run(client, interaction);
   }
 });

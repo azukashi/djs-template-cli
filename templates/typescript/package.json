@@ -1,31 +1,31 @@
 {
-	"name": "djs-template-typescript",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "ts-node --transpile-only ./src/index.ts",
-		"dev": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts",
-		"format": "prettier --write .",
-		"build": "tsc"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
-	"dependencies": {
-		"@types/node": "^16.6.0",
-		"chalk": "^4.1.2",
-		"consola": "^2.15.3",
-		"discord.js": "^13.4.0",
-		"djs-template-cli": "^1.2.0",
-		"dotenv": "^10.0.0",
-		"glob": "^7.1.7",
-		"mongoose": "^5.13.7"
-	},
-	"devDependencies": {
-		"prettier": "^2.3.2",
-		"ts-node": "^10.2.0",
-		"ts-node-dev": "^1.1.8",
-		"typescript": "^4.3.5"
-	}
+  "name": "djs-template-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --transpile-only ./src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts",
+    "format": "prettier --write .",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@types/node": "17.0.8",
+    "chalk": "4.1.2",
+    "consola": "2.15.3",
+    "discord.js": "13.6.0",
+    "djs-template-cli": "1.2.0",
+    "dotenv": "16.0.1",
+    "glob": "8.0.3",
+    "mongoose": "6.3.4"
+  },
+  "devDependencies": {
+    "prettier": "2.6.2",
+    "ts-node": "10.8.0",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.3.5"
+  }
 }
