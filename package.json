@@ -1,8 +1,10 @@
 {
   "name": "djs-template-cli",
-  "version": "1.2.1",
-  "description": "Command-line Interface to bootstrap discord.js project with a command handler.",
+  "version": "1.4.0",
+  "description": "Easy way to create new discord.js project",
   "main": "src/index.js",
+  "author": "Gifaldy Azka <me@falcxxdev.ml> (https://falcxxdev.ml)",
+  "license": "MIT",
   "bin": {
     "djs-cli": "bin/create-project",
     "discord.js-cli": "bin/create-project"
@@ -16,20 +18,27 @@
     "check-format": "prettier -c ."
   },
   "dependencies": {
-    "arg": "^5.0.0",
-    "chalk": "^4.1.1",
-    "djs-template-cli": "^1.1.0",
-    "esm": "^3.2.25",
-    "execa": "^5.1.1",
-    "inquirer": "^8.1.1",
-    "listr": "^0.14.3",
-    "ncp": "^2.0.0",
-    "pkg-install": "^1.0.0"
+    "arg": "5.0.0",
+    "chalk": "4.1.1",
+    "esm": "3.2.25",
+    "execa": "5.1.1",
+    "inquirer": "8.1.1",
+    "listr": "0.14.3",
+    "ncp": "2.0.0",
+    "pkg-install": "1.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.1.0",
-    "prettier": "^2.4.1"
+    "eslint": "8.1.0",
+    "prettier": "2.4.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gifaldyazkaa/djs-template-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gifaldyazkaa/djs-template-cli/issues"
+  },
+  "homepage": "https://github.com/gifaldyazkaa/djs-template-cli#readme",
   "keywords": [
     "cli",
     "discord",
@@ -38,15 +47,5 @@
     "discord.js",
     "discord.js-cli",
     "djs-v13"
-  ],
-  "author": "Gifaldy Azka",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gifaldyazkaa/djs-template-cli.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gifaldyazkaa/djs-template-cli/issues"
-  },
-  "homepage": "https://github.com/gifaldyazkaa/djs-template-cli#readme"
+  ]
 }
