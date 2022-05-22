@@ -8,7 +8,7 @@
   "scripts": {
     "start": "ts-node --transpile-only ./src/index.ts",
     "dev": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts",
-    "format": "prettier --write .",
+    "format": "prettier -w .",
     "build": "tsc"
   },
   "keywords": [],
