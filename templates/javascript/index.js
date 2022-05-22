@@ -1,12 +1,8 @@
-const { Client, Collection, Intents } = require('discord.js');
+const { Client, Collection } = require('discord.js');
 require('dotenv').config();
 
 const client = new Client({
-  intents: [
-    Intents.FLAGS.GUILDS,
-    Intents.FLAGS.GUILD_MESSAGES,
-    Intents.FLAGS.GUILD_MEMBERS,
-  ],
+  intents: 32767,
 });
 module.exports = client;
 
@@ -15,6 +11,6 @@ client.commands = new Collection();
 client.slashCommands = new Collection();
 
 // Initialize the project
-require('./handler')(client);
+require('./src/Handler')(client);
 
 client.login(process.env.TOKEN);
