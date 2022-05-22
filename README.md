@@ -2,56 +2,71 @@
 
 # 🤖 djs-template-cli
 
-[djs-template-cli](https://npmjs.com/package/djs-template-cli) is a Command-line Interface to Bootstrap Discord.js project with command handler.
-
 [![NPM version](https://img.shields.io/npm/v/djs-template-cli?maxAge=3600)](https://npmjs.com/package/djs-template-cli) [![NPM downloads](https://img.shields.io/npm/dt/djs-template-cli?maxAge=3600)](https://npmjs.com/package/djs-template-cli)
 
 [![NPM banner](https://nodei.co/npm/djs-template-cli.png?downloads=true&stars=true)](https://npmjs.com/package/djs-template-cli)
 
 </div>
 
-## 📥 Installation
+## ➡️ Usage
 
 ### 📦 Install this package
 
-Install this module globally with npm.
+> `sudo` may required for UNIX-based system
+
+#### npm
 
 ```bash
-# Using npm
-$ [sudo] npm install -g djs-template-cli
-
-# Using yarn
-$ [sudo] yarn global add djs-template-cli
+$ npm install -g djs-template-cli
+#
+# added ??? packages, and audited ??? packages in 1s
+# found 0 vulnerabilities
 ```
 
-### 🏃 Run `djs-cli`
+#### Yarn
 
-Run `djs-cli` at your Terminal. It should ask you for prefered languages you want.
+```bash
+$ yarn global add djs-template-cli
+#
+# yarn global v1.22.17
+# [1/4] 🔍  Resolving packages...
+# [2/4] 🚚  Fetching packages...
+# [3/4] 🔗  Linking dependencies...
+# [4/4] 🔨  Building fresh packages...
+#
+# success Installed "djs-template-cli" with binaries:
+#       - djs-cli
+#       - discord.js-cli
+# ✨  Done in 1.25s.
+```
+
+### 🏃 Start creating new project
 
 ```sh
-# Main binaries
-$ djs-cli
-
+# Main binary
+$ djs-cli [OPTIONS...]
 # or
 $ discord.js-cli
 ```
 
-## 📚 Parameters
+> Notice : _This package will create a project inside your current working directory (pwd). To avoid creating a project in wrong directory (ex: in your /home/user directory), create am empty directory, change dir to newly created directory, and run the main binary_
 
-Available parameters for this package
+## 📚 Options
 
-| Name       | Usage                | Description                                              |
-| ---------- | -------------------- | -------------------------------------------------------- |
-| JavaScript | `djs-cli javascript` | Create a JavaScript-based discord.js project             |
-| TypeScript | `djs-cli typescript` | Create a TypeScript-based discord.js project             |
-| Git        | `djs-cli --git`      | Initialize the Project with Git                          |
-| Install    | `djs-cli --install`  | Install all required dependecies when creating a project |
-| Bypass     | `djs-cli --yes`      | Skip and Bypass all options                              |
+Available options for this package. If no options are used, a user interface prompt will show up instead
+
+| Options       | Description                                          | Default |
+| ------------- | ---------------------------------------------------- | ------- |
+| javascript    | Create JavaScript-based discord.js project           | true    |
+| typescript    | Create TypeScript-based discord.js project           | false   |
+| -g, --git     | Initialize Git inside the project                    | false   |
+| -i, --install | Install required dependecies when creating a project | false   |
+| -y, --yes     | Skip prompt and use default option                   | false   |
 
 ## 🏷️ Discord.js version
 
-- JavaScript Template uses Discord.js version : `^13.4.0`
-- TypeScript Template uses Discord.js version : `^13.4.0`
+- JavaScript Template uses Discord.js version : `13.6.0`
+- TypeScript Template uses Discord.js version : `13.6.0`
 
 ## 👨‍💻 Contributing
 
@@ -59,4 +74,4 @@ Contributions are welcome! Feel free to submit a Pull Request with improvements!
 
 ## 🧾 License
 
-[djs-template-cli](https://npmjs.com/package/djs-template-cli) is Licensed Under [Apache-2.0](./LICENSE) License.
+[djs-template-cli](https://npmjs.com/package/djs-template-cli) is Licensed Under [MIT](./LICENSE) License.
