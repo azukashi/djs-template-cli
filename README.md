@@ -19,7 +19,7 @@
 ```bash
 $ npm install -g djs-template-cli
 #
-# added ??? packages, and audited ??? packages in 1s
+# added ??? packages, and audited ??? packages in 2.35s
 # found 0 vulnerabilities
 ```
 
@@ -37,13 +37,12 @@ $ yarn global add djs-template-cli
 # success Installed "djs-template-cli" with binaries:
 #       - djs-cli
 #       - discord.js-cli
-# ✨  Done in 1.25s.
+# ✨  Done in 1s.
 ```
 
 ### 🏃 Start creating new project
 
 ```sh
-# Main binary
 $ djs-cli [OPTIONS...]
 # or
 $ discord.js-cli [OPTIONS...]
