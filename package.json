@@ -1,6 +1,6 @@
 {
   "name": "djs-template-cli",
-  "version": "1.4.3",
+  "version": "1.4.5",
   "description": "Easy way to create new discord.js project",
   "main": "src/index.js",
   "author": "Gifaldy Azka <me@falcxxdev.ml> (https://falcxxdev.ml)",
