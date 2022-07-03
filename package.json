@@ -1,6 +1,6 @@
 {
     "name": "djs-template-cli",
-    "version": "1.4.5",
+    "version": "1.6.2",
     "description": "Easy way to create new discord.js project",
     "main": "src/index.js",
     "bin": {
