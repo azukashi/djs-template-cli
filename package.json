@@ -10,12 +10,12 @@
     "publishConfig": {
         "access": "public"
     },
-    "author": "Gifaldy Azka <me@falcxxdev.ml>",
-    "license": "MIT",
     "scripts": {
         "lint": "prettier -c .",
         "format": "prettier -w ."
     },
+    "author": "Gifaldy Azka <me@falcxxdev.ml>",
+    "license": "MIT",
     "dependencies": {
         "arg": "5.0.2",
         "chalk": "4.1.2",
