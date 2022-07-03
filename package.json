@@ -1,49 +1,49 @@
 {
-  "name": "djs-template-cli",
-  "version": "1.4.5",
-  "description": "Easy way to create new discord.js project",
-  "main": "src/index.js",
-  "bin": {
-    "djs-cli": "bin/create-project",
-    "discord.js-cli": "bin/create-project"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "author": "Gifaldy Azka <me@falcxxdev.ml>",
-  "license": "MIT",
-  "scripts": {
-    "lint": "prettier -c .",
-    "format": "prettier -w ."
-  },
-  "dependencies": {
-    "arg": "5.0.2",
-    "chalk": "4.1.2",
-    "esm": "3.2.25",
-    "execa": "5.1.1",
-    "inquirer": "8.2.4",
-    "listr": "0.14.3",
-    "ncp": "2.0.0",
-    "pkg-install": "1.0.0"
-  },
-  "devDependencies": {
-    "prettier": "2.7.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gifaldyazkaa/djs-template-cli.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gifaldyazkaa/djs-template-cli/issues"
-  },
-  "homepage": "https://github.com/gifaldyazkaa/djs-template-cli#readme",
-  "keywords": [
-    "cli",
-    "discord",
-    "bot",
-    "create-project",
-    "discord.js",
-    "discord.js-cli",
-    "djs-v13"
-  ]
+    "name": "djs-template-cli",
+    "version": "1.6.2",
+    "description": "Easy way to create new discord.js project",
+    "main": "src/index.js",
+    "bin": {
+        "djs-cli": "bin/create-project",
+        "discord.js-cli": "bin/create-project"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "lint": "prettier -c .",
+        "format": "prettier -w ."
+    },
+    "author": "Gifaldy Azka <me@falcxxdev.ml>",
+    "license": "MIT",
+    "dependencies": {
+        "arg": "5.0.2",
+        "chalk": "4.1.2",
+        "esm": "3.2.25",
+        "execa": "5.1.1",
+        "inquirer": "8.2.4",
+        "listr": "0.14.3",
+        "ncp": "2.0.0",
+        "pkg-install": "1.0.0"
+    },
+    "devDependencies": {
+        "prettier": "2.7.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gifaldyazkaa/djs-template-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gifaldyazkaa/djs-template-cli/issues"
+    },
+    "homepage": "https://github.com/gifaldyazkaa/djs-template-cli#readme",
+    "keywords": [
+        "cli",
+        "discord",
+        "bot",
+        "create-project",
+        "discord.js",
+        "discord.js-cli",
+        "djs-v13"
+    ]
 }

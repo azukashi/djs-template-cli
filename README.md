@@ -64,8 +64,8 @@ Available options for this package. If no options are used, a user interface pro
 
 ## 🏷️ Discord.js version
 
-- JavaScript Template uses Discord.js version : `13.6.0`
-- TypeScript Template uses Discord.js version : `13.6.0`
+-   JavaScript Template uses Discord.js version : `13.8.1`
+-   TypeScript Template uses Discord.js version : `13.8.1`
 
 ## 👨‍💻 Contributing
 

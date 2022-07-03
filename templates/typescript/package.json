@@ -1,29 +1,28 @@
 {
   "name": "djs-template-typescript",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "author": "",
-  "license": "MIT",
   "scripts": {
     "start": "ts-node --transpile-only ./src/index.ts",
     "dev": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts",
     "format": "prettier -w .",
     "build": "tsc"
   },
-  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "@types/node": "17.0.8",
     "chalk": "4.1.2",
     "consola": "2.15.3",
-    "discord.js": "13.6.0",
+    "discord.js": "13.8.1",
     "dotenv": "16.0.1",
     "glob": "8.0.3",
-    "mongoose": "6.4.0"
+    "mongoose": "6.4.2"
   },
   "devDependencies": {
     "prettier": "2.7.1",
-    "ts-node": "10.8.1",
+    "ts-node": "10.8.2",
     "ts-node-dev": "2.0.0",
     "typescript": "4.7.4"
   }
